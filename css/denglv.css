@@ -1,0 +1,169 @@
+/*------样式默认部分------*/
+body,ul,dl,dd,dt,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,img,td,div,input{margin:0;padding:0;}
+li{
+	list-style-type:none;
+	vertical-align:0;
+	float:left;
+}
+img{
+	border:0;
+}
+a{
+	outline-style:none;
+	color:#666;
+	text-decoration:none;
+	border:0px;
+}
+/*------样式默认部分------*/
+
+/*------zhuche页面背景部分------*/
+.maink{
+	height:650px;
+	background:url(../img/a1.jpg) no-repeat center top;
+	position: relative;
+}
+/*------zhuche页面背景部分------*/
+
+/*-------登录大框部分-------*/
+.denglv{
+	width:340px;
+	height:340px;
+	border-top:2px solid #ff4965;
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd; 
+	border-bottom:1px solid #ddd;
+	position: absolute;
+	right:100px;top:210px;
+	padding-top:20px;
+	padding:0 35px;
+}
+.denglv_title{
+	height:80px;
+}
+.denglv_tilte span{
+	line-height: 80px;
+	font-size:12px;
+	font-weight:bold;
+	display: block;
+	float: left;
+}
+.denglv_tilte p{
+	font-size:12px;
+	line-height:80px;
+	float:right;
+}
+.denglv_tilte a{
+	color:#ff4965;
+}
+.username{
+	width:333px;
+	height:34px;
+	margin-bottom:15px;
+	background:url(../img/a8.jpg) no-repeat left top;
+	text-indent: 40px;
+	outline: none;
+}
+.password{
+	width:333px;
+	height:34px;
+	margin-bottom:15px;
+	background:url(../img/a11.jpg) no-repeat left top;
+	text-indent: 40px;
+	outline: none;
+}
+.check{
+	font-size:12px;
+}
+.check .checkbox{
+	float:left;
+	margin-top:1px;
+	border:1px solid #999;
+}
+.check span{
+	float:right;
+	color:#ff4965;
+}
+.submit{
+	width:336px;
+	height:33px;
+	background:#ff4965;
+	margin-top:15px;
+	border:none;
+	border-radius: 3px;color:#fff;
+}
+.kdeng{
+	display:block;
+	margin-top:-15px;
+	font-size:12px;
+	position:absolute;
+	left:37px;top:290px;
+}
+.maink .kdeng .ca{
+	position: absolute;
+	left:95px;
+	top:-19px;
+	opacity: 0.4;
+}
+.maink .kdeng .ck{
+	position: absolute;
+	left:140px;
+	top:-15px;
+	opacity: 0.4;
+}
+.maink .kdeng .cc{
+	position: absolute;
+	left:182px;
+	top:-17px;
+	opacity: 0.4;
+}
+.maink .kdeng .ca:hover{
+	opacity: 1;
+}
+.maink .kdeng .ck:hover{
+	opacity: 1;
+}
+.maink .kdeng .cc:hover{
+	opacity: 1;
+}
+/*-------登录大框部分-------*/
+
+/*------foot尾部部分------*/
+.foot{
+	width:1800px;
+	height:30px;
+	border-top: 3px solid #ff647c;
+	background: #555;
+	margin-left:-280px;
+}
+.foot .wrapper{
+	width:1080px;
+	margin:0 auto;
+	
+}
+
+.foot .floor_nav{
+	text-align: center;
+	line-height: 25px;
+}
+.foot .floor_nav a{
+	font-size: 12px;
+	
+	text-decoration: none;
+	color:#ddd;
+	padding-left:2px;
+	
+}
+/*------foot尾部部分------*/
+
+/*------copyright版权部分------*/
+.copyright{
+	height:170px;
+	padding-top:15px;
+}
+.copyright p{
+	text-align:center;
+	font-size: 13px;
+	color:#999;
+	line-height: 26px;
+}
+/*------copyright版权部分------*/
